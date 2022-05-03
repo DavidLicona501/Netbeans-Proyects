@@ -7,7 +7,7 @@ package POL;
  *
  * @author invitado
  */
-public class Factura {
+public class Factura implements PorPagar {
   private String numeroPieza;
   private String descripcionesPieza;
   private int cantidad;
